@@ -1,0 +1,15 @@
+{{#if comments}}
+  <div>
+    <h3>Comments:</h3>
+    {{#each comments as |comment|}}
+      <article>
+        <h3>{{comment.title}}</h3>
+        <p>{{comment.content}}</p>
+        <p>Posted by
+          {{comment.user.name}}
+          on
+          {{comment.date_created}}</p>
+      </article>
+    {{/each}}
+  </div>
+{{/if}}
