@@ -1,2 +1,2 @@
-# Tech-Blog
-Tech blog for DU bootcamp
+# E-Commerce-Back-End
+E-commerce Back End for DU bootcamp
